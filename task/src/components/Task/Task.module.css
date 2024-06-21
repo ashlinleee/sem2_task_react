@@ -1,0 +1,52 @@
+.Task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+    transition: background-color 0.3s;
+  }
+  
+  .Task:last-child {
+    border-bottom: none;
+  }
+  
+  .Task:hover {
+    background-color: #f9f9f9;
+  }
+  
+  .Task span {
+    flex: 1;
+    text-align: left;
+    color: #333;
+  }
+  
+  .Task .Deadline {
+    margin-left: 20px;
+    font-style: italic;
+    color: #999;
+  }
+  
+  .Task button {
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .Task button:first-of-type {
+    background-color: #28a745;
+    margin-right: 5px;
+  }
+  
+  .Task button:hover {
+    background-color: #0056b3;
+  }
+  
+  .Task button:first-of-type:hover {
+    background-color: #218838;
+  }
+  
